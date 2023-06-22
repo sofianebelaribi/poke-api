@@ -30,7 +30,7 @@
   "types": [
     {
       "slot": 1,
-      "type": { "name": "grass", "url": "https://pokeapi.co/api/v2/type/12/" }
+      "type": { "name": "herbe" }
     },
     {
       "slot": 2,
