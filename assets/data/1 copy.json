@@ -1,30 +1,74 @@
 {
-  "id": 1,
-  "name": "Bulbasaur",
-  "genus": "Seed Pokémon",
-  "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.",
-  "imageUrl": "https://pub-460ada4f152c4135a7ec0881a2cb1330.r2.dev/1.webp",
-  "types": ["Grass", "Poison"],
   "abilities": [
     {
-      "name": "Overgrow",
-      "effect": "When this Pokémon has 1/3 or less of its HP remaining, its grass-type moves inflict 1.5× as much regular damage.",
-      "description": "Ups GRASS moves in a pinch."
-    },
-    {
-      "name": "Chlorophyll",
-      "effect": "This Pokémon's Speed is doubled during strong sunlight.  This bonus does not count as a stat modifier.",
-      "description": "Raises SPEED in sunshine."
+      "ability": {
+        "name": "overgrow",
+        "url": "https://pokeapi.co/api/v2/ability/65/"
+      },
+      "is_hidden": false,
+      "slot": 1
     }
   ],
-  "stats": {
-    "HP": 45,
-    "Attack": 49,
-    "Defense": 49,
-    "Special Attack": 65,
-    "Special Defense": 65,
-    "Speed": 45
+  "base_experience": 64,
+  "height": 7,
+  "held_items": [],
+  "id": 1,
+  "is_default": true,
+  "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/1/encounters",
+  "name": "Lathieu",
+  "order": 1,
+  "past_types": [],
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
   },
-  "locations": ["Cerulean City", "Pallet Town", "Lumiose City"],
-  "color": "#d1e8dd"
+  "stats": [
+    {
+      "base_stat": 45,
+      "effort": 0,
+      "stat": { "name": "hp", "url": "https://pokeapi.co/api/v2/stat/1/" }
+    },
+    {
+      "base_stat": 49,
+      "effort": 0,
+      "stat": { "name": "attack", "url": "https://pokeapi.co/api/v2/stat/2/" }
+    },
+    {
+      "base_stat": 49,
+      "effort": 0,
+      "stat": { "name": "defense", "url": "https://pokeapi.co/api/v2/stat/3/" }
+    },
+    {
+      "base_stat": 65,
+      "effort": 1,
+      "stat": {
+        "name": "special-attack",
+        "url": "https://pokeapi.co/api/v2/stat/4/"
+      }
+    },
+    {
+      "base_stat": 65,
+      "effort": 0,
+      "stat": {
+        "name": "special-defense",
+        "url": "https://pokeapi.co/api/v2/stat/5/"
+      }
+    },
+    {
+      "base_stat": 45,
+      "effort": 0,
+      "stat": { "name": "speed", "url": "https://pokeapi.co/api/v2/stat/6/" }
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type": { "name": "herbe", "url": "https://pokeapi.co/api/v2/type/12/" }
+    },
+    {
+      "slot": 2,
+      "type": { "name": "poison", "url": "https://pokeapi.co/api/v2/type/4/" }
+    }
+  ],
+  "weight": 69
 }
