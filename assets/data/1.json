@@ -11,17 +11,17 @@
   ],
   "base_experience": 64,
   "forms": [
-    { "name": "bulbasaur", "url": "https://pokeapi.co/api/v2/pokemon-form/1/" }
+    { "name": "lathieu", "url": "https://pokeapi.co/api/v2/pokemon-form/1/" }
   ],
   "height": 7,
   "held_items": [],
   "id": 1,
   "is_default": true,
-  "name": "bulbasaur",
+  "name": "lathieu",
   "order": 1,
   "past_types": [],
   "species": {
-    "name": "bulbasaur",
+    "name": "lathieu",
     "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
   },
   "stats": [
