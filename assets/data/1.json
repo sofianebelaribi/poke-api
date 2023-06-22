@@ -3,7 +3,7 @@
   "name": "Bulbasaur",
   "genus": "Seed Pokémon",
   "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.",
-  "imageUrl": "https://pub-460ada4f152c4135a7ec0881a2cb1330.r2.dev/1.webp",
+  "imageUrl": "https://raw.githubusercontent.com/sofianebelaribi/poke-api/e9ddd6d741d2e0ed6f16a21282dde51a9910737c/assets/data/1.webp",
   "types": ["Grass", "Poison"],
   "abilities": [
     {
